@@ -5,7 +5,7 @@ public class TryFinally {
         } catch (ArithmeticException e) {
             System.out.println("¡No se puede dividir por cero!");
         } finally {
-            System.out.println("Este bloque se ejecuta siempre.");
+            System.out.println("Este bloque se ejecuta siempre!");
         }
     }
 }
